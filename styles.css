@@ -1,0 +1,29 @@
+body{
+    background-color: black;
+}
+
+header{
+    background-color: lightskyblue;
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    height: 120px;
+
+}
+
+
+img{
+    display: flexbox;
+    height: 120px;
+    border-radius: 2em;
+}
+
+li{
+    display: inline-block;
+    cursor: pointer;
+    margin-right: 20px;
+    flex-wrap:wrap-reverse;
+
+    
+}
+
