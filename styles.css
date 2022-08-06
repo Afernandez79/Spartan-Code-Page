@@ -17,30 +17,31 @@ header{
     text-align: center;
     font-weight: bold;
     
-    
-    
-    
-    
+        
 }
 
 
 img{
     display: flexbox;
     height: 140px;
-    border-radius: 5em;
+    border-radius: 3em;
     margin-left: 35px;
     margin-top: 18px;
     align-content: center;
+    justify-content: center;
+    flex-direction: row;
     
     }
 
 li{
-    display: inline-block;
+    display: inline-flex;
     margin-right: 30px;
-    flex-wrap:wrap-reverse;
-    margin-top: 10px;
-    padding-right: 30px; 
     text-decoration:none;
+    justify-content: flex-end;
+    flex-direction: row-reverse;
+    flex-wrap: wrap-reverse;
+    margin-top: 20px;
+    
            
              
 }
