@@ -1,20 +1,20 @@
 *{
     box-sizing: content-box;
-
+        
 }
 
 
 body{
-
-    background: rgb(252,176,69);
-background: linear-gradient(90deg, rgba(252,176,69,1) 0%, rgba(131,58,180,1) 0%, rgba(0,242,236,1) 60%);
     
+    overflow-x:auto;
+    background: rgb(180,58,58);
+background: linear-gradient(90deg, rgba(180,58,58,1) 0%, rgba(252,176,69,1) 0%);
     
 }
 
 header{
-    ackground-color: rgba(236, 240, 222, 0.952);
-    display: flex;
+    
+    display:flex;
     height: 60px;
     justify-content: space-between;
     height: 180px;
@@ -97,7 +97,7 @@ li :hover{
     flex-direction: column;
     justify-content: center;
     border-radius: 1em;
-    margin-left: 1290px;
+    margin-left: 1090px;
     margin-top: -230px;
     height: 280px;
     width: 280px;
@@ -108,7 +108,7 @@ h3{
     display: flex;
     align-content: column;
     justify-content: center;
-    margin-left: -720px;
+    margin-left: -420px;
     margin-top: 180px;
     font-size: 250%;
 
@@ -116,7 +116,7 @@ h3{
 
 .mision{
     display: flex;
-    margin-left: 330px;
+    margin-left: 130px;
     height: 10px;
     font-size: 140%;
 }
@@ -176,7 +176,7 @@ h3{
     width: 380px;
     height: 350px;
     margin-top: 200px;
-    margin-left: 600px;
+    margin-left: 250px;
     margin-top: 300px;
     border-radius: 1em;
     background-color: azure;
@@ -193,7 +193,7 @@ h3{
     width: 380px;
     height: 350px;
     margin-top: -370px;
-    margin-left: 1300px;
+    margin-left: 900px;
     border-radius: 1em;
     background-color: blanchedalmond;
     box-shadow: 10px 5px 50px  yellow;
@@ -234,6 +234,121 @@ h3{
     color: purple;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;    
 
+}
+
+.info{
+    
+    align-content: center;
+    justify-content: baseline;
+    border: 3px red solid;
+    border-radius: 2em;
+    height: 150px;
+    background-color: bisque;
+}
+
+.nombre{
+    position: relative;
+    margin-top: 70px;
+    margin-left: 25px;
+    font-size: x-large;
+}
+
+.dir{
+    position: relative;
+    margin-top: -185px;
+    margin-left: 250px;
+    font-size: x-large;
+    
+    
+}
+
+.direccion{
+    position: relative;
+    margin-top: 90px;
+    margin-left: 120px;
+    height: 60px;
+    cursor: pointer;
+    
+    
+}
+
+
+.dir :hover{
+    color: white;
+    cursor: pointer;
+    background-color: azure;
+}
+
+.mail{
+    position: relative;
+    margin-top: -80px;
+    margin-left: 550px;
+    height: 60px;
+    font-size: x-large;
+
+}
+
+.email{
+    position: relative;
+    margin-top: -25px;
+    margin-left: 210px;
+    height: 60px;
+    border-radius: 0em;
+    cursor: pointer;
+
+}
+
+.mail :hover{
+    color: white;
+    background-color: azure;
+}
+
+
+
+.tel{
+    position: relative;
+    margin-top: -85px;
+    
+    height: 60px;
+    border-radius: 0em;
+    font-size: x-large;
+
+}
+
+.telefono{
+    position: relative;
+    margin-top: -1625px;
+    margin-left: 1180px;
+    height: 60px;
+    border-radius: 0em;
+
+}
+
+.tel :hover{
+    color: white;
+    background-color: azure;
+}
+
+
+.derechos{
+    background-color: lightseagreen;
+    max-width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+    height: 40px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-content: space-between;
+    justify-content: center;
+    margin-left: 0%;
+}
+
+.todos{
+    align-content: center;
+    justify-content: center;
+    margin-left: 40%;
+    font-weight:900 bolder;
+    
 }
 
 
